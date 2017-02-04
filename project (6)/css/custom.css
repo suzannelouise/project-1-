@@ -1,0 +1,177 @@
+
+html,
+body {
+  height: 100%
+}
+  
+/**************************
+GENERAL
+****************************/
+
+body {
+  font-family:'Josefin Sans', sans-serif;
+  text-decoration:none;
+}
+
+h1 {
+  color:#fffff0;
+}
+
+h2 {
+  font-family:'Josefin Sans', sans-serif;
+
+  margin: -5px 0 0;
+  font-weight:normal;
+  color: #fffff0;
+} 
+
+h3 {
+  font-family:'Indie Flower', cursive;
+  color:white;
+}
+
+p {
+  font-family:'Indie Flower', cursive;
+  color:#fa8072;
+}
+
+img {
+  max-width: 100%;
+}
+
+.blockquote {
+  font-size: 1.6rem;
+  color: #800000;
+  border: none;
+  padding: 0;
+}
+
+.blockquoter-footer {
+  margin: 1rem 0 0;
+}
+
+/******************
+BACKGROUND-IMAGE
+************************/
+html { 
+background: url('../img/dark.jpg') no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#home {
+  background: url('../img/dark.jpg') no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
+/**************************
+STAGE
+***************************/
+
+#stage {
+  background:#800000 url('../img/castle.jpg') center center no-repeat;
+  background-size:cover;align-content:center
+  color: white;
+  height:100%;
+  width: 100%;
+  display:flex;
+  align-items:center;
+}
+
+#stage-caption {
+  font-size: 1.4rem;
+  font-weight:200;
+  max-width: 60rem;
+  margin: 0 auto;
+  text-align:center;
+}
+
+#stage-caption h1 {
+  color:#fffff0;
+}
+
+/**************************
+BASESTYLE
+**************************/
+html, body { height: 100%; }
+#wrapper {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        margin: 0 auto -40px; /* zelfde height als footer */
+}
+ 
+#footer, .overlap{
+        height: 40px; /* Overlap en footer zelfde height */
+}
+
+
+
+/*********************
+BUTTONS
+*********************/
+.btn-1 {
+  color:#fffaf0;
+  background-color:#cd5c5c;
+  position:absolute;
+  margin-left:auto;
+  margin-right:auto;
+  z-index:1;
+}
+
+.btn-2 {
+  color:#fffaf0;
+  font-family:'Indie Flower', cursive;
+  font-size:1.5rem;
+  display:center;
+  margin:auto;
+  padding:2rem, 1.5rem;
+  border:2rem, 1.5rem;
+  border-color:#cd5c5c;
+  background-color:#cd5c5c;
+}
+
+a div .btn-lg .btn-succes {
+  text-decoration:none;
+}
+
+/********************** 
+CARROUSEL
+***********************/
+
+.carousel,.carousel-item,.active{height:100%;}
+.carousel-inner{height:100%;}
+/* #carousel .carousel-inner .carousel-caption >.item >img {
+  margin:auto; */
+}
+
+/***********************
+FOOTER
+************************/
+footer {
+  font-size: 0.75em;
+  text-align:center;
+  clear:both;
+  /*padding-top: 50px;*/
+  color: #555;
+}
+  
+}
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+.footer,
+.push {
+  height: 50px;
+}
+
